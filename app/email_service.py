@@ -28,7 +28,7 @@ def send_email(subject="[Daily Briefing] This is a test", html="<p>Hello World</
 if __name__ == "__main__":
     example_subject = "[Daily Briefing] This is a test"
 
-    example_html = """
+    example_html = f"""
     <h3>This is a test of the Daily Briefing Service</h3>
 
     <h4>Today's Date</h4>
