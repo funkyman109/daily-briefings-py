@@ -11,7 +11,7 @@ from app.email_service import send_email
 
 load_dotenv()
 
-MY_NAME = os.getenv("MY_NAME", default="Player 1")
+MY_NAME = os.getenv("MY_NAME", default="Luke Sanders")
 
 if __name__ == "__main__":
 
