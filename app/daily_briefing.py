@@ -1,4 +1,7 @@
 # app/daily_briefing.py
+# to run app through heroku server use
+#  heroku run bash
+
 
 import os
 from dotenv import load_dotenv
